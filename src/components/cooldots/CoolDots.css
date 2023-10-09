@@ -1,0 +1,20 @@
+.cool-dots {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cool-dots__row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cool-dots__cell {
+    position: relative;
+}
+
+.cool-dots .dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
