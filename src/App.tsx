@@ -1,5 +1,5 @@
 import './App.css'
-import CoolDots from './components/cooldots/CoolDots'
+import CoolDotsDemo from './components/cooldots/CoolDotsDemo'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
       <div className='example'>
         <h2>Cool dots</h2>
-        <CoolDots sensitivity={15} sharpness={8} />
+        <CoolDotsDemo />
       </div>
     </>
   )
